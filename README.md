@@ -1,10 +1,10 @@
-# 🔥 PyTorch Learning Journey
+# PyTorch Learning Journey
 
 A collection of hands-on notebooks documenting my journey learning **PyTorch** from scratch — covering fundamentals, model building, training workflows, neural network classification, and computer vision with CNNs.
 
 ---
 
-## 📂 Notebooks Overview
+## Notebooks Overview
 
 | Notebook | Topic | Key Concepts |
 |---|---|---|
@@ -15,7 +15,7 @@ A collection of hands-on notebooks documenting my journey learning **PyTorch** f
 
 ---
 
-## 📓 Notebook Details
+## Notebook Details
 
 ### 1. `pytorch_fundamentals.ipynb` — PyTorch Basics
 
@@ -76,7 +76,7 @@ Applies neural networks to a non-linear classification problem.
   5. Optimizer step
 - Understanding the **logit → probability → label** pipeline
 
-> 💡 **Key Note:** `BCEWithLogitsLoss` is preferred over `BCELoss` because it combines the sigmoid and loss in one numerically stable operation.
+> **Key Note:** `BCEWithLogitsLoss` is preferred over `BCELoss` because it combines the sigmoid and loss in one numerically stable operation.
 
 ---
 
@@ -114,7 +114,7 @@ The most advanced notebook — builds and compares three models on the **Fashion
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3.x**
 - **PyTorch** — core deep learning framework
@@ -127,7 +127,7 @@ The most advanced notebook — builds and compares three models on the **Fashion
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -157,7 +157,7 @@ Open the notebooks in this recommended order:
 
 ---
 
-## 📈 Learning Path
+## Learning Path
 
 ```
 Tensor Basics
@@ -171,7 +171,7 @@ Multi-class Classification (CNN + FashionMNIST)
 
 ---
 
-## 📝 Notes
+## Notes
 
 - These are personal learning notebooks — code focuses on clarity over optimization
 - GPU support is handled automatically: `device = "cuda" if torch.cuda.is_available() else "cpu"`
@@ -180,6 +180,6 @@ Multi-class Classification (CNN + FashionMNIST)
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 Learning resources and inspiration from the [Learn PyTorch for Deep Learning](https://www.learnpytorch.io/) course by Daniel Bourke.
